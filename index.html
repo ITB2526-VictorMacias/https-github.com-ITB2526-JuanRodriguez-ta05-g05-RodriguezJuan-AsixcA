@@ -1,0 +1,228 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portafolio personal futurista con estética neón y glassmorphism." />
+  <title>Neonfolio • Inicio</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+
+  
+  <header class="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a class="brand" href="index.html" aria-label="Ir al inicio">
+          <span class="brand-badge" aria-hidden="true"></span>
+          <span class="brand-text">Portfoloio</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-controls="navMenu" aria-expanded="false">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="nav" id="navMenu" aria-label="Navegación principal">
+          <a class="nav-link is-active" href="index.html">Inicio</a>
+          <a class="nav-link" href="projects.html">Proyectos</a>
+          <a class="nav-link" href="contact.html">Contacto</a>
+
+          <button class="btn btn-ghost neon-toggle" type="button" data-neon-toggle>
+            <span class="dot" aria-hidden="true"></span>
+            Neón: <span data-neon-label>ON</span>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+    <section class="hero section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <p class="kicker">Portafolio Personal • UI/UX • Front-end</p>
+            <h1 class="headline">
+              Hola, soy <span class="neon-text">Juan Carlos Rodriguez</span>.
+              Diseño y desarrollo experiencias web <span class="soft">futuristas</span>.
+            </h1>
+            <p class="subhead">
+              Creo interfaces modernas con enfoque en usabilidad, rendimiento y estética neón/glassmorphism.
+              Aquí encontrarás proyectos, detalles técnicos y una forma fácil de contactarme.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="projects.html">
+                Ver proyectos
+                <span class="btn-glow" aria-hidden="true"></span>
+              </a>
+              <a class="btn btn-secondary" href="contact.html">
+                Contactar
+              </a>
+            </div>
+
+            <ul class="meta-row" aria-label="Datos rápidos">
+              <li class="meta-chip">📍 Remoto / USA - ES</li>
+              <li class="meta-chip">⚡ HTML • CSS • JS</li>
+              <li class="meta-chip">✨ UI • Accesibilidad</li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="glass panel">
+              <div class="panel-top">
+                <div class="status">
+                  <span class="pulse" aria-hidden="true"></span>
+                  Disponible para proyectos
+                </div>
+                <div class="tag">2026</div>
+              </div>
+
+              <div class="panel-body">
+                <h2 class="panel-title">Panel Holográfico</h2>
+                <p class="panel-text">
+                  Interacciones suaves, brillo moderado y capas translúcidas.
+                  Diseño consistente en todas las páginas.
+                </p>
+
+                <div class="stats">
+                  <div class="stat">
+                    <div class="stat-num" data-counter="48">0</div>
+                    <div class="stat-label">Componentes</div>
+                  </div>
+                  <div class="stat">
+                    <div class="stat-num" data-counter="12">0</div>
+                    <div class="stat-label">Pantallas UI</div>
+                  </div>
+                  <div class="stat">
+                    <div class="stat-num" data-counter="96">0</div>
+                    <div class="stat-label">Score Lighthouse</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel-footer">
+                <a class="btn btn-small btn-ghost" href="projects.html">Explorar</a>
+                <span class="hint">Tip: activa/desactiva el neón arriba</span>
+              </div>
+            </div>
+
+            <div class="scanline" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Proyectos destacados</h2>
+          <p class="section-subtitle">Dos trabajos seleccionados con enfoque en UI, animaciones y performance.</p>
+        </div>
+
+        <div class="grid grid-2">
+          <article class="card glass">
+            <div class="card-media">
+              <img src="images/proyect1.jpeg" alt="Vista previa del Proyecto 1 (placeholder)" loading="lazy" />
+              <span class="chip">UI • Landing</span>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Proyecto 1 • Landing Neón</h3>
+              <p class="card-text">
+                Landing moderna con secciones claras, micro-interacciones y estilo glassmorphism.
+              </p>
+
+              <ul class="pill-row" aria-label="Tecnologías del proyecto 1">
+                <li class="pill">HTML</li>
+                <li class="pill">CSS</li>
+                <li class="pill">JS</li>
+              </ul>
+
+              <div class="card-actions">
+                <a class="btn btn-primary" href="project1.html">
+                  Ver detalle
+                  <span class="btn-glow" aria-hidden="true"></span>
+                </a>
+                <a class="btn btn-ghost" href="projects.html">Ver todos</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card glass">
+            <div class="card-media">
+              <img src="images/proyecto2.jpg" alt="Vista previa del Proyecto 2 (placeholder)" loading="lazy" />
+              <span class="chip">App • Dashboard</span>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Proyecto 2 • Dashboard Holo</h3>
+              <p class="card-text">
+                Panel tipo dashboard con widgets, estadísticas y animaciones suaves al hacer scroll.
+              </p>
+
+              <ul class="pill-row" aria-label="Tecnologías del proyecto 2">
+                <li class="pill">Grid</li>
+                <li class="pill">Accesibilidad</li>
+                <li class="pill">LocalStorage</li>
+              </ul>
+
+              <div class="card-actions">
+                <a class="btn btn-primary" href="project2.html">
+                  Ver detalle
+                  <span class="btn-glow" aria-hidden="true"></span>
+                </a>
+                <a class="btn btn-ghost" href="projects.html">Ver todos</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="callout glass">
+          <div class="callout-left">
+            <h3 class="callout-title">¿Quieres ver el listado completo?</h3>
+            <p class="callout-text">Hay mínimo 6 proyectos con buscador en tiempo real en la página de Proyectos.</p>
+          </div>
+          <div class="callout-right">
+            <a class="btn btn-secondary" href="projects.html">Ir a proyectos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="brand-mini">
+          <span class="brand-badge" aria-hidden="true"></span>
+          <span>Portflio</span>
+        </div>
+        <p class="footer-note">Diseño futurista • glassmorphism • neón moderado</p>
+      </div>
+
+      <div class="footer-right">
+        <a class="footer-link" href="contact.html">Contacto</a>
+        <a class="footer-link" href="projects.html">Proyectos</a>
+        <a class="footer-link" href="index.html">Inicio</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
